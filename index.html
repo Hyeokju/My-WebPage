@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href="style.css"/>
+    </head>    
+    <body>
+        <h1><img src="Orwi.jpg"><a class="style_color" href="index.html" style="color: black; width: 250px; height: 50px; text-decoration-line: none;">Orwi의 사이트</a></h1>
+        <input class = "r" type="button" value="night" onclick="
+            var target = document.querySelector('body');
+            if(this.value === 'night')
+            {
+                /*document.querySelector('body')*/target.style.backgroundColor = 'black';
+                /*document.querySelector('body')*/target.style.color = 'white';
+                document.querySelector('.style_color').style.color = 'white';
+                document.querySelector('.olol').style.color = 'white';
+                document.querySelector('.r').value = 'day';
+            }
+            else
+            {
+                /*document.querySelector('body')*/target.style.backgroundColor = 'white';
+                /*document.querySelector('body')*/target.style.color = 'black';
+                document.querySelector('.style_color').style.color = 'black';
+                document.querySelector('.olol').style.color = 'black';
+                document.querySelector('.r').value = 'night';
+            }
+            ">
+        <div id="grid">
+            <ol>
+                <li><a href="index.html" class = "olol">혁주에 대해서</a></li>
+                <li><a href="2.html" class = "olol">관심사</a></li>
+                <li><a href="3.html" class = "olol">주로 하는 게임</a></li>
+                <li><a href="4.html" class = "olol">좋아하는 음악</a></li>
+                <li><a href="5.html" class = "olol">그 외</a></li>
+            </ol>
+            <div id="article">
+                <h2 style="font-size: 30px;">혁주에 대해서</h2>
+                <a class="p"><img src="Orwi.jpg" width="80px">대충 이런 프사 보면 그게다</a>
+            </div>
+        </div>
+    </body>
+</html>

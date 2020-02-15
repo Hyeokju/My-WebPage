@@ -1,0 +1,47 @@
+#grid ol
+{
+    border-right: 1px solid gray;
+    width: 125px;
+    margin: 10px;
+    padding: 25px;
+    font-size: 25px;
+}
+#grid
+{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#article
+{
+    padding-left: 50px;
+}
+h1 
+{
+    font-size: 36px;
+    border-bottom: 1px solid gray;
+    margin: 0px;
+    padding: 20px;
+    vertical-align: middle;
+}
+ol 
+{
+    border-right: 1px solid gray;
+    width: 125px;
+    margin: 10px;
+    padding: 25px;
+    font-size: 16px;
+    list-style-type: disc;
+}
+body
+{
+    margin: 0px;
+}
+.olol
+{
+    font-size: 16px;
+    color: black;
+}
+.p
+{
+    font-size: 20px;
+}
